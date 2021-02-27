@@ -45,7 +45,7 @@ public class TimelineActivity extends AppCompatActivity {
             @Override
             public void onRefresh() {
                 Log.i(TAG,"fetching new data!");
-
+                populateHomeTimeline();
             }
         });
 
